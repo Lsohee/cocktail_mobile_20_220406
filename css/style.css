@@ -4,16 +4,53 @@
 .root div { 
   border:1px solid black;
 }
+
+/* header */
+
+
 .root>div:nth-child(1){
   width:100%;
   height:35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.root>div:nth-child(1)>div:nth-child(1){
+  width:30%;
+  height:15%;
+}
+
+
+.root>div:nth-child(1)>div:nth-child(2){
+  width:100%;
+  height:20%;
+}
+
+
+.root>div:nth-child(1)>div:nth-child(3){
+  width:90%;
+  height:40%;
+  display: flex;
+}
+
+.root>div:nth-child(1)>div:nth-child(3)>div{
+  width:50%;
+  height:100%;
+}
+
+
+
+/* main */
 
 .root>div:nth-child(2){
   width:100%;
   height:55%;
 }
 
+
+/* footer */
 .root>div:nth-child(3){
   width:100%;
   height:10%;
